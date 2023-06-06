@@ -3,7 +3,7 @@ layout: post
 date: 2023-05-29
 inline: false
 related_posts: false
-title: I'm attending the 22nd International Conference on Autonomous Agents and Multiagent Systems in London.
+title: I'm presenting at the 22nd International Conference on Autonomous Agents and Multiagent Systems in London.
 ---
 
 I'll be presenting two papers on differentiable agent-based models. The first is lead by my collaborator Ayush Chopra.

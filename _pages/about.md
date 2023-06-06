@@ -9,9 +9,11 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>243, Wolfson Building</p>
+    <p>Room 243</p>
+    <p>Wolfson Building</p>
     <p>15 Parks Rd</p>
     <p>Oxford, OX1 3QD</p>
+    <p>UK</p>
 
 news: true  # includes a list of news items
 #latest_posts: true  # includes a list of the newest posts
