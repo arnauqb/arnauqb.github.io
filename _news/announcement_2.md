@@ -1,9 +1,8 @@
 ---
 layout: post
 date: 2023-06-06
-inline: false
+inline: true
 related_posts: false
-title: I'm presenting at the BioInference 2023 Conference in Oxford.
 ---
 
-I'll be giving a talk on Friday 8th of June, 3pm, on Bayesian Calibration of Differentiable Agent-Based Models. The talk will be available on Youtube shortly after the event.
+I'm presenting at the <a href="https://bioinference.github.io/2023/">BioInference 2023 Conference in Oxford</a>.
