@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hello! I am currently a postdoctoral researcher at the Department of Computer Science of the University of Oxford.
 
-My background is mainly in theoretical physics; I read Physics and Mathematics at the University of Barcelona, followed by an Msc in Physics at the University of Heidelberg. I later obtained a PhD in Astrophysics at the University of Durham.
+My background is mainly in theoretical physics; I read Physics and Mathematics at the University of Barcelona, followed by an MSc in Physics at the University of Heidelberg. I later obtained a PhD in Astrophysics at the University of Durham.
 
 I'm interested in any kind of problem that requires large computational resources to understand. During my PhD, I developed new numerical methods to simulate active galactic nuclei (AGN) feedback in the form of radiative winds. I'm also one of the lead developers of JUNE, a one-to-one epidemiological agent-based model of England.
 
