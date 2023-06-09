@@ -18,6 +18,8 @@ Relevant papers:
 
 [Differentiable agent-based epidemiology](https://arxiv.org/abs/2207.09714)
 
+[JUNE](https://royalsocietypublishing.org/doi/10.1098/rsos.210506)
+
 [Slides](/assets/pdf/bioinference_slides.pdf)
 
 ## [AAMAS 2023] Don’t Simulate Twice: One-Shot Sensitivity Analyses via Automatic Differentiation
