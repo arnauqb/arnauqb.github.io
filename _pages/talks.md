@@ -10,6 +10,8 @@ nav_order: 6
 
 ## [BioInference 2023] Bayesian calibration of differentiable agent-based models
 
+[Slides](/assets/pdf/bioinference_slides.pdf)
+
 Relevant papers:
 
 [Don’t Simulate Twice: One-Shot Sensitivity Analyses via Automatic Differentiation](https://ora.ox.ac.uk/objects/uuid:a4b60c6f-6313-42ac-813f-b5a41d1e1041/download_file?file_format=application%2Fpdf&safe_filename=Calinescu_et_al_2023_dont_simulate_twice.pdf&type_of_work=Conference+item)
@@ -20,7 +22,6 @@ Relevant papers:
 
 [JUNE](https://royalsocietypublishing.org/doi/10.1098/rsos.210506)
 
-[Slides](/assets/pdf/bioinference_slides.pdf)
 
 ## [AAMAS 2023] Don’t Simulate Twice: One-Shot Sensitivity Analyses via Automatic Differentiation
 
