@@ -21,7 +21,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I am currently a postdoctoral researcher at the Department of Computer Science of the University of Oxford.
+Hello! I am currently a postdoctoral researcher at the Department of Computer Science of the University of Oxford. I'm also a (research fellow)[https://www.inet.ox.ac.uk/people/arnau-quera-bofarull/] at the Institute for New Economic Thinking and a research affiliate at MIT media lab.
 
 My background is mainly in theoretical physics; I read Physics and Mathematics at the University of Barcelona, followed by an MSc in Physics at the University of Heidelberg. I later obtained a PhD in Astrophysics at the University of Durham.
 
