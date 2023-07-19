@@ -6,7 +6,7 @@ subtitle: Postdoctoral researcher, University of Oxford
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Room 243</p>
