@@ -2,7 +2,10 @@
 
 # Install
 
-Run
+First install ruby and bundler.
+
+
+then
 
 ```
 bundle install

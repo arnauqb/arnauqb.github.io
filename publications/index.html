@@ -134,7 +134,62 @@
         <div class="col-sm-2 abbr"></div>
 
         <!-- Entry bib key -->
-        <div id="gradabm" class="col-sm-8">
+        <div id="10.1145/3604237.3626857" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Gradient-Assisted Calibration for Financial Agent-Based Models</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Joel Dyer, <em>Arnau Quera-Bofarull</em>, Ayush Chopra, and
+          <span class="more-authors" title="click to view 3 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '3 more authors' ? 'J. Doyne Farmer, Anisoara Calinescu, Michael Wooldridge' : '3 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">3 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the Fourth ACM International Conference on AI in Finance</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1145/3604237.3626857"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3604237.3626857" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Agent-based modelling (ABMing) is a promising approach to modelling and reasoning about complex systems such as financial markets. However, the application of ABMs in practice is often impeded by the models’ complexity and the ensuing difficulty of performing parameter inference and optimisation tasks. This in turn has motivated efforts directed towards the construction of differentiable ABMs, enabled by recently developed effective auto-differentiation frameworks, as a strategy for addressing these challenges. In this paper, we discuss and present experiments that demonstrate how differentiable programming may be used to implement and calibrate heterogeneous ABMs in finance. We begin by considering in more detail the difficulties inherent in constructing gradients for discrete ABMs. Secondly, we illustrate solutions to these difficulties, by using a discrete agent-based market simulation model as a case study. Finally, we show through numerical experiments how our differentiable implementation of this discrete ABM enables the use of powerful tools from probabilistic machine learning and conditional generative modelling to perform robust parameter inferences and uncertainty quantification, in a simulation-efficient manner.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="10.5555/3545946.3598851" class="col-sm-8">
         <!-- Title -->
         <div class="title">Differentiable Agent-Based Epidemiology</div>
         <!-- Author -->
@@ -189,6 +244,163 @@
         <div class="col-sm-2 abbr"></div>
 
         <!-- Entry bib key -->
+        <div id="10.5555/3545946.3598853" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Don’t Simulate Twice: One-shot Sensitivity Analyses via Automatic Differentiation</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Arnau Quera-Bofarull</em>, Ayush Chopra, Joseph Aylett-Bullock, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '4 more authors' ? 'Carolina Cuesta-Lazaro, Anisoara Calinescu, Ramesh Raskar, Michael Wooldridge' : '4 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">4 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-isbn="978-1-4503-9432-1"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Agent-based models (ABMs) are a promising tool to simulate complex environments. Their rapid adoption requires scalable specification, efficient data-driven calibration, and validation through sensitivity analyses. Recent progress in tensorized and differentiable ABM design (GradABM) has enabled fast calibration of million-size populations, however, validation through sensitivity analysis is still computationally prohibitive due to the need for running the model a large number of times. Here, we present a novel methodology that uses automatic differentiation to perform a sensitivity analysis on a calibrated ABM without requiring any further simulations. The key insight is to leverage gradients of a GradABM to compute exact partial derivatives of any model output with respect to an arbitrary combination of parameters. We demonstrate the benefits of this approach on a case study of the first wave of COVID-19 in London, where we investigate the causes of variations in infections by age, socio-economic index, ethnicity, and geography. Finally, we also show that the same methodology allows for the design of optimal policy interventions. The code to reproduce the presented results is made available on GitHub (https://github.com/arnauqb/one\textsubscriptshot\textsubscriptsensitivity).</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="bayesian_diff" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Bayesian Calibration of Differentiable Agent-Based Models</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        A. Quera-Bofarull, A. Chopra, A. Calinescu, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'M. Wooldridge, J. Dyer' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In International Conference on Learning Representations – AI4ABM Workshop</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.48550/arXiv.2305.15340"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.48550/arXiv.2305.15340" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="blackbirds" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">BlackBIRDS: Black-box Inference foR Differentiable Simulators</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Arnau Quera-Bofarull</em>, Joel Dyer, Anisoara Calinescu, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'J. Doyne Farmer, Michael Wooldridge' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Journal of Open Source Software</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.21105/joss.05776"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.21105/joss.05776" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
         <div id="quera-bofarullQwind3UVLinedriven2023" class="col-sm-8">
         <!-- Title -->
         <div class="title">Qwind3: UV Line-Driven Accretion Disc Wind Models for AGN Feedback</div>
@@ -215,7 +427,7 @@
         
         
         <div class="periodical">
-          <em>Monthly Notices of the Royal Astronomical Society</em>, Jan 2023
+          <em>Monthly Notices of the Royal Astronomical Society</em>, 2023
         </div>
         <div class="periodical">
           
@@ -233,7 +445,7 @@
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>The ultraviolet (UV) bright accretion disc in active galactic nuclei (AGNs) should give rise to line driving, producing a powerful wind that may play an important role in AGN feedback as well as in producing structures like the broad-line region. However, coupled radiation-hydrodynamic codes are complex and expensive, so we calculate the winds instead using a non-hydrodynamical approach (the qwind framework). The original qwind model assumed the initial conditions in the wind, and had only simple radiation transport. Here, we present an improved version that derives the wind initial conditions and has significantly improved ray tracing to calculate the wind absorption self-consistently, given the extended nature of the UV emission. We also correct the radiation flux for relativistic effects and assess the impact of this on the wind velocity. These changes mean the model is more physical, so its predictions are more robust. We find that, even when accounting for relativistic effects, winds can regularly achieve velocities ≃(0.1-0.5)c, and carry mass-loss rates that can be up to 80 per cent of the accreted mass for black hole masses of 107-9 M⊙, and mass accretion rates of 50 per cent of the Eddington rate. Overall, the ratio of kinetic power carried by the wind to bolometric luminosity increases with mass accretion rate at a given black hole mass, unlike the constant fraction generally assumed in current cosmological simulations that include AGN feedback. The updated code, qwind3, is publicly available in GitHub.1</p>
+            <p>The ultraviolet (UV) bright accretion disc in active galactic nuclei (AGNs) should give rise to line driving, producing a powerful wind that may play an important role in AGN feedback as well as in producing structures like the broad-line region. However, coupled radiation-hydrodynamic codes are complex and expensive, so we calculate the winds instead using a non-hydrodynamical approach (the qwind framework). The original qwind model assumed the initial conditions in the wind, and had only simple radiation transport. Here, we present an improved version that derives the wind initial conditions and has significantly improved ray tracing to calculate the wind absorption self-consistently, given the extended nature of the UV emission. We also correct the radiation flux for relativistic effects and assess the impact of this on the wind velocity. These changes mean the model is more physical, so its predictions are more robust. We find that, even when accounting for relativistic effects, winds can regularly achieve velocities ≃(0.1-0.5)c, and carry mass-loss rates that can be up to 80 per cent of the accreted mass for black hole masses of 107-9 M⊙, and mass accretion rates of 50 per cent of the Eddington rate. Overall, the ratio of kinetic power carried by the wind to bolometric luminosity increases with mass accretion rate at a given black hole mass, unlike the constant fraction generally assumed in current cosmological simulations that include AGN feedback. The updated code, qwind3, is publicly available in GitHub.1</p>
           </div>
         </div>
       </div>
@@ -244,18 +456,18 @@
         <div class="col-sm-2 abbr"></div>
 
         <!-- Entry bib key -->
-        <div id="queraDontSimulate" class="col-sm-8">
+        <div id="some_challenges" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Don’t Simulate Twice: One-shot Sensitivity Analyses via Automatic Differentiation</div>
+        <div class="title">Some Challenges of Calibrating Differentiable Agent-Based Models</div>
         <!-- Author -->
         <div class="author">
         
 
-        <em>Arnau Quera-Bofarull</em>, Ayush Chopra, Joseph Aylett-Bullock, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
+        A. Quera-Bofarull, J. Dyer, A. Calinescu, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Carolina Cuesta-Lazaro, Anisoara Calinescu, Ramesh Raskar, Michael Wooldridge' : '4 more authors';
+                var more_authors_text = element.text() == '1 more author' ? 'M. Wooldridge' : '1 more author';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -263,14 +475,14 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">4 more authors</span>
+              ">1 more author</span>
 </div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems</em>, Jan 2023
+          <em>In International Conference on Machine Learning – Differentiable Almost Everything Workshop</em>, 2023
         </div>
         <div class="periodical">
           
@@ -278,18 +490,14 @@
 
           <!-- Links/Buttons -->
           <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-isbn="978-1-4503-9432-1"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.48550/arXiv.2307.01085"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.48550/arXiv.2307.01085" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Agent-based models (ABMs) are a promising tool to simulate complex environments. Their rapid adoption requires scalable specification, efficient data-driven calibration, and validation through sensitivity analyses. Recent progress in tensorized and differentiable ABM design (GradABM) has enabled fast calibration of million-size populations, however, validation through sensitivity analysis is still computationally prohibitive due to the need for running the model a large number of times. Here, we present a novel methodology that uses automatic differentiation to perform a sensitivity analysis on a calibrated ABM without requiring any further simulations. The key insight is to leverage gradients of a GradABM to compute exact partial derivatives of any model output with respect to an arbitrary combination of parameters. We demonstrate the benefits of this approach on a case study of the first wave of COVID-19 in London, where we investigate the causes of variations in infections by age, socio-economic index, ethnicity, and geography. Finally, we also show that the same methodology allows for the design of optimal policy interventions. The code to reproduce the presented results is made available on GitHub (https://github.com/arnauqb/one\textsubscriptshot\textsubscriptsensitivity).</p>
-          </div>
+          
         </div>
       </div>
 </li>
@@ -314,7 +522,7 @@
           <span class="more-authors" title="click to view 23 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '23 more authors' ? 'David Kennedy, Egmond Samir Evers, Anjali Katta, Hussien Ahmed, Kevin Fong, Keyrellous Adib, Lubna Al Ariqi, Ali Ardalan, Pierre Nabeth, Kai Harbou, Katherine Hoffmann Pham, Carolina Cuesta-Lazaro, Arnau Quera-Bofarull, Allen Gidraf Kahindo Maina, Tinka Valentijn, Sandra Harlass, Frank Krauss, Chao Huang, Rebeca Moreno Jimenez, Tina Comes, Mariken Gaanderse, Leonardo Milano, Miguel Luengo-Oroz' : '23 more authors';
+                var more_authors_text = element.text() == '23 more authors' ? 'David Kennedy, Egmond Samir Evers, Anjali Katta, Hussien Ahmed, Kevin Fong, Keyrellous Adib, Lubna Al Ariqi, Ali Ardalan, Pierre Nabeth, Kai von Harbou, Katherine Hoffmann Pham, Carolina Cuesta-Lazaro, Arnau Quera-Bofarull, Allen Gidraf Kahindo Maina, Tinka Valentijn, Sandra Harlass, Frank Krauss, Chao Huang, Rebeca Moreno Jimenez, Tina Comes, Mariken Gaanderse, Leonardo Milano, Miguel Luengo-Oroz' : '23 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -329,7 +537,7 @@
         
         
         <div class="periodical">
-          <em>BMJ Global Health</em>, Mar 2022
+          <em>BMJ Global Health</em>, 2022
         </div>
         <div class="periodical">
           
@@ -384,7 +592,7 @@
         
         
         <div class="periodical">
-          <em>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</em>, Oct 2022
+          <em>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</em>, 2022
         </div>
         <div class="periodical">
           
@@ -417,6 +625,61 @@
         <div class="col-sm-2 abbr"></div>
 
         <!-- Entry bib key -->
+        <div id="aylett-bullockJuneOpensourceIndividualbasedb" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">June: Open-source Individual-Based Epidemiology Simulation</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Joseph Aylett-Bullock, Carolina Cuesta-Lazaro, <em>Arnau Quera-Bofarull</em>, and
+          <span class="more-authors" title="click to view 11 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '11 more authors' ? 'Miguel Icaza-Lizaola, Aidan Sedgewick, Henry Truong, Aoife Curran, Edward Elliott, Tristan Caulfield, Kevin Fong, Ian Vernon, Julian Williams, Richard Bower, Frank Krauss' : '11 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">11 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Royal Society Open Science</em>, 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1098/rsos.210506"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1098/rsos.210506" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We introduce June, an open-source framework for the detailed simulation of epidemics on the basis of social interactions in a virtual population constructed from geographically granular census data, reflecting age, sex, ethnicity and socio-economic indicators. Interactions between individuals are modelled in groups of various sizes and properties, such as households, schools and workplaces, and other social activities using social mixing matrices. June provides a suite of flexible parametrizations that describe infectious diseases, how they are transmitted and affect contaminated individuals. In this paper, we apply June to the specific case of modelling the spread of COVID-19 in England. We discuss the quality of initial model outputs which reproduce reported hospital admission and mortality statistics at national and regional levels as well as by age strata.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
         <div id="aylett-bullockOperationalResponseSimulation2021c" class="col-sm-8">
         <!-- Title -->
         <div class="title">Operational Response Simulation Tool for Epidemics within Refugee and IDP Settlements: A Scenario-Based Case Study of the Cox’s Bazar Settlement</div>
@@ -443,7 +706,7 @@
         
         
         <div class="periodical">
-          <em>PLOS Computational Biology</em>, Oct 2021
+          <em>PLOS Computational Biology</em>, 2021
         </div>
         <div class="periodical">
           
@@ -472,18 +735,18 @@
         <div class="col-sm-2 abbr"></div>
 
         <!-- Entry bib key -->
-        <div id="cuesta-lazaroVaccinationsNonPharmaceuticalInterventions2021a" class="col-sm-8">
+        <div id="Cuesta-Lazaro2021.09.07.21263223" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Vaccinations or Non-Pharmaceutical Interventions:Safe Reopening of Schools in England</div>
+        <div class="title">Vaccinations or Non-Pharmaceutical Interventions: Safe Reopening of Schools in England</div>
         <!-- Author -->
         <div class="author">
         
 
         Carolina Cuesta-Lazaro, <em>Arnau Quera-Bofarull</em>, Joseph Aylett-Bullock, and
-          <span class="more-authors" title="click to view 8 more authors" onclick="
+          <span class="more-authors" title="click to view 9 more authors" onclick="
                 var element = $(this);
                 element.attr('title', '');
-                var more_authors_text = element.text() == '8 more authors' ? 'Bryan N. Lawrence, Kevin Fong, Miguel Icaza-Lizaola, Sedgewick Aidan, Henry Truong, Ian Vernon, Julian Williams, Frank Krauss' : '8 more authors';
+                var more_authors_text = element.text() == '9 more authors' ? 'Bryan N. Lawrence, Kevin Fong, Miguel Icaza-Lizaola, Aidan Sedgewick, Henry Truong, Ian Vernon, Julian Williams, Christina Pagel, Frank Krauss' : '9 more authors';
                 var cursorPosition = 0;
                 var textAdder = setInterval(function(){
                   element.text(more_authors_text.substring(0, cursorPosition + 1));
@@ -491,14 +754,14 @@
                     clearInterval(textAdder);
                   }
               }, '10');
-              ">8 more authors</span>
+              ">9 more authors</span>
 </div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>medRxiv</em>, Sep 2021
+          2021
         </div>
         <div class="periodical">
           
@@ -510,13 +773,13 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="https://www.medrxiv.org/content/early/2021/09/23/2021.09.07.21263223.full.pdf"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1101/2021.09.07.21263223" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>With high levels of the Delta variant of COVID-19 circulating in England during September 2021, schools are set to reopen with few school-based non-pharmaceutical interventions (NPIs). In this paper, we present simulation results obtained from the individual-based model, JUNE, for school opening after a prior vaccination campaign using an optimistic set of assumptions about vaccine efficacy and the likelihood of prior-reinfection. We take a scenario-based approach to modelling potential interventions to assess relative changes rather than real-world forecasts. Specifically, we assess the effects of vaccinating those aged 16-17, those aged 12-17, and not vaccinating children at all relative to only vaccinating the adult population. Vaccinating children in the 12-15 age group would have had a significant impact on the course of the epidemic, saving thousands of lives overall in these simulations. In the absence of such a vaccination campaign our simulations show there could still be a significant positive impact on the epidemic (fewer cases, fewer deaths) by continuing NPI strategies in schools. Our analysis suggests that the best results are likely derived from a combination of vaccinations and NPIs.</p>
+            <p>With high levels of the Delta variant of COVID-19 circulating in England during September 2021, schools are set to reopen with few school-based non-pharmaceutical interventions (NPIs). In this paper, we present simulation results obtained from the individual-based model, June, for English school opening after a prior vaccination campaign using an optimistic set of assumptions about vaccine efficacy and the likelihood of prior-reinfection. We take a scenario-based approach to modelling potential interventions to assess relative changes rather than real-world forecasts. Specifically, we assess the effects of vaccinating those aged 16-17, those aged 12-17, and not vaccinating children at all relative to only vaccinating the adult population, addressing what might have happened had the UK began teenage vaccinations earlier. Vaccinating children in the 12-15 age group would have had a significant impact on the course of the epidemic, saving thousands of lives overall in these simulations. In the absence of such a vaccination campaign our simulations show there could still be a significant positive impact on the epidemic (fewer cases, fewer deaths) by continuing NPI strategies in schools. Our analysis suggests that the best results in terms of lives saved are likely derived from a combination of the now planned vaccination campaign and NPIs in schools.Competing Interest StatementThe authors have declared no competing interest.Funding Statementt. J.A.B., C.C.L., A.Q.B. thank the STFC-CDT DDIS for their support through grant ST/P006744/1. F.K. gratefully acknowledges funding as a Royal Society Wolfson Research Fellow. We gratefully acknowledge the generous provision of computing time on the Hartree and JASMIN facilities. The bulk of this work used the DiRAC@Durham facility managed by the Institute for Computational Cosmology on behalf of the STFC DiRAC HPC Facility (www.dirac.ac.uk). The equipment was funded by BEIS capital funding via STFC capital grants ST/K00042X/1,ST/P002293/1, ST/R002371/1 and ST/S002502/1, Durham University and STFC operations grant ST/R000832/1. DiRAC, Hartree and JASMIN are part of the National e-Infrastructure.Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesThe details of the IRB/oversight body that provided approval or exemption for the research described are given below:Ethics approval was not required for this study as the data we use is open. We use the Health Research Authority (HRA)decision tool and consulted HRA formally who provided formal acknowledgment of our exemption.All necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).YesI have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable.YesData will be made availble on Zenodo or a similar repository before publication.</p>
           </div>
         </div>
       </div>
@@ -524,63 +787,7 @@
 </ol>
 
   <h2 class="pubyear">2020</h2>
-  <ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="aylett-bullockJuneOpensourceIndividualbased2020" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">June: Open-Source Individual-Based Epidemiology Simulation</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Joseph Aylett-Bullock, Carolina Cuesta-Lazaro, <em>Arnau Quera-Bofarull</em>, and
-          <span class="more-authors" title="click to view 11 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '11 more authors' ? 'Miguel Icaza-Lizaola, Aidan Sedgewick, Henry Truong, Aoife Curran, Edward Elliott, Tristan Caulfield, Kevin Fong, Ian Vernon, Julian Williams, Richard Bower, Frank Krauss' : '11 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">11 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Royal Society Open Science</em>, Sep 2020
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1098/rsos.210506"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1098/rsos.210506" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>We introduce June, an open-source framework for the detailed simulation of epidemics on the basis of social interactions in a virtual population constructed from geographically granular census data, reflecting age, sex, ethnicity and socio-economic indicators. Interactions between individuals are modelled in groups of various sizes and properties, such as households, schools and workplaces, and other social activities using social mixing matrices. June provides a suite of flexible parametrizations that describe infectious diseases, how they are transmitted and affect contaminated individuals. In this paper, we apply June to the specific case of modelling the spread of COVID-19 in England. We discuss the quality of initial model outputs which reproduce reported hospital admission and mortality statistics at national and regional levels as well as by age strata.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
+  <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"></div>
@@ -612,7 +819,7 @@
         
         
         <div class="periodical">
-          <em>Monthly Notices of the Royal Astronomical Society</em>, Jun 2020
+          <em>Monthly Notices of the Royal Astronomical Society</em>, 2020
         </div>
         <div class="periodical">
           
@@ -630,12 +837,11 @@
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Ultraviolet (UV) line driven winds may be an important part of the active galactic nucleus (AGN) feedback process, but understanding their impact is hindered by the complex nature of the radiation hydrodynamics. Instead, we have taken the approach pioneered by Risaliti &amp; Elvis, calculating only ballistic trajectories from radiation forces and gravity, but neglecting gas pressure. We have completely re-written their QWIND code using more robust algorithms, and can now quickly model the acceleration phase of these winds for any AGN spectral energy distribution spanning UV and X-ray wavebands. We demonstrate the code using an AGN with black hole mass \10\^8 M_⊙emitting at half the Eddington rate and show that this can effectively eject a wind with velocities \≃(0.1-0.2) c\. The mass loss rates can be up to \≃0.3 M_⊙per year, consistent with more computationally expensive hydrodynamical simulations, though we highlight the importance of future improvements in radiation transfer along the multiple different lines of sight illuminating the wind. The code is fully public, and can be used to quickly explore the conditions under which AGN feedback can be dominated by accretion disc winds.</p>
+            <p>Ultraviolet (UV) line driven winds may be an important part of the active galactic nucleus (AGN) feedback process, but understanding their impact is hindered by the complex nature of the radiation hydrodynamics. Instead, we have taken the approach pioneered by Risaliti &amp; Elvis, calculating only ballistic trajectories from radiation forces and gravity, but neglecting gas pressure. We have completely re-written their QWIND code using more robust algorithms, and can now quickly model the acceleration phase of these winds for any AGN spectral energy distribution spanning UV and X-ray wavebands. We demonstrate the code using an AGN with black hole mass \10\^8}, M_}odot emitting at half the Eddington rate and show that this can effectively eject a wind with velocities {}simeq (0.1-0.2)}, c\. The mass loss rates can be up to {}simeq 0.3 M_}odot per year, consistent with more computationally expensive hydrodynamical simulations, though we highlight the importance of future improvements in radiation transfer along the multiple different lines of sight illuminating the wind. The code is fully public, and can be used to quickly explore the conditions under which AGN feedback can be dominated by accretion disc winds.</p>
           </div>
         </div>
       </div>
-</li>
-</ol>
+</li></ol>
 
   <h2 class="pubyear">2019</h2>
   <ol class="bibliography"><li>
@@ -646,7 +852,7 @@
         <!-- Entry bib key -->
         <div id="bullockXNetConvolutionalNeural2019a" class="col-sm-8">
         <!-- Title -->
-        <div class="title">XNet: A Convolutional Neural Network (CNN) Implementation for Medical x-Ray Image Segmentation Suitable for Small Datasets</div>
+        <div class="title">XNet: A Convolutional Neural Network (CNN) Implementation for Medical X-Ray Image Segmentation Suitable for Small Datasets</div>
         <!-- Author -->
         <div class="author">
         
@@ -658,7 +864,7 @@
         
         
         <div class="periodical">
-          <em>In Medical Imaging 2019: Biomedical Applications in Molecular, Structural, and Functional Imaging</em>, Mar 2019
+          <em>In Medical Imaging 2019: Biomedical Applications in Molecular, Structural, and Functional Imaging</em>, 2019
         </div>
         <div class="periodical">
           
@@ -676,7 +882,7 @@
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>X-Ray image enhancement, along with many other medical image processing applications, requires the segmentation of images into bone, soft tissue, and open beam regions. We apply a machine learning approach to this problem, presenting an end-to-end solution which results in robust and efficient inference. Since medical institutions often do not have the resources to process and label the large quantity of X-Ray images usually needed for neural network training, we design an end-to-end solution for small datasets, while achieving state-of-the-art results. Our implementation produces an overall accuracy of 92%, F1 score of 0.92, and an AUC of 0.98, surpassing classical image processing techniques, such as clustering and entropy based methods, while improving upon the output of existing neural networks used for segmentation in non-medical contexts. The code used for this project is available online.\textsuperscript1</p>
+            <p>X-Ray image enhancement, along with many other medical image processing applications, requires the segmentation of images into bone, soft tissue, and open beam regions. We apply a machine learning approach to this problem, presenting an end-to-end solution which results in robust and efficient inference. Since medical institutions often do not have the resources to process and label the large quantity of X-Ray images usually needed for neural network training, we design an end-to-end solution for small datasets, while achieving state-of-the-art results. Our implementation produces an overall accuracy of 92%, F1 score of 0.92, and an AUC of 0.98, surpassing classical image processing techniques, such as clustering and entropy based methods, while improving upon the output of existing neural networks used for segmentation in non-medical contexts. The code used for this project is available online.^1</p>
           </div>
         </div>
       </div>
@@ -715,7 +921,7 @@
         
         
         <div class="periodical">
-          <em>Monthly Notices of the Royal Astronomical Society</em>, Jun 2018
+          <em>Monthly Notices of the Royal Astronomical Society</em>, 2018
         </div>
         <div class="periodical">
           
@@ -753,8 +959,8 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Arnau  Quera-Bofarull. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
-Last updated: December 05, 2023.
+        © Copyright 2024 Arnau  Quera-Bofarull. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+Last updated: January 29, 2024.
       </div>
     </footer>
 
