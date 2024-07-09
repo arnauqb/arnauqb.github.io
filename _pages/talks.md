@@ -13,6 +13,8 @@ nav_order: 6
 
 Relevant papers:
 
+[Blackbirds](https://joss.theoj.org/papers/10.21105/joss.05776)
+
 [Gradient-Assisted Calibration for Financial Agent-Based Models](https://dl.acm.org/doi/10.1145/3604237.3626857)
 
 [Monte Carlo Gradient Estimation in Machine Learning](https://arxiv.org/abs/1906.10652)
@@ -28,6 +30,8 @@ Relevant papers:
 [Bayesian Calibration of differentiable agent-based models](https://arxiv.org/abs/2305.15340)
 
 [Differentiable agent-based epidemiology](https://arxiv.org/abs/2207.09714)
+
+[Population Synthesis as Scenario Generation for Simulation-based Planning under Uncertainty](https://dl.acm.org/doi/abs/10.5555/3635637.3662899)
 
 [JUNE](https://royalsocietypublishing.org/doi/10.1098/rsos.210506)
 
