@@ -2,18 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral researcher, University of Oxford
+subtitle: Researcher at Macrocosm
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Room 243</p>
-    <p>Wolfson Building</p>
-    <p>15 Parks Rd</p>
-    <p>Oxford, OX1 3QD</p>
-    <p>UK</p>
+    <p>New York</p>
+    <p>USA</p>
 
 news: true  # includes a list of news items
 #latest_posts: true  # includes a list of the newest posts
@@ -21,12 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I am currently a postdoctoral researcher at the Department of Computer Science of the University of Oxford. I'm also a research fellow at the Institute for New Economic Thinking and a research affiliate at MIT Media Lab.
+I'm a senior researcher at Macrocosm based in New York. Macrocosm uses agent-based models and machine learning tools to understand the economy as a complex system. Our aim is to build models of the economy to make the world a better place.
 
-My background is mainly in theoretical physics; I read Physics and Mathematics at the University of Barcelona, followed by an MSc in Physics at the University of Heidelberg. I later obtained a PhD in Astrophysics at the University of Durham.
+My overall interests are in using computational tools to understand emergent phenomena. While my main focus has been on agent-based models, I also have a special interest in Active Inference and the Julia programming language.
 
-I'm interested in any kind of problem that requires large computational resources to understand. During my PhD, I developed new numerical methods to simulate active galactic nuclei (AGN) feedback in the form of radiative winds. I'm also one of the lead developers of JUNE, a one-to-one epidemiological agent-based model of England.
-
-Lately, I'm interested in how we can leverage machine learning tools to improve the way agent-based models (ABM) are designed, calibrated, validated, and verified.
+I was previously a postdoctoral researcher at the University of Oxford. I read Physics and Mathematics at the University of Barcelona, followed by an MSc in Physics at the University of Heidelberg. I later obtained a PhD in Astrophysics at the University of Durham. During my stay at Oxford, I focused on developing differentiable-based methods to improve the calibration of agent-based models.
 
 
