@@ -6,11 +6,10 @@ subtitle: Researcher at Macrocosm
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile2.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>New York</p>
-    <p>USA</p>
+    <p>New York, USA</p>
 
 news: true  # includes a list of news items
 #latest_posts: true  # includes a list of the newest posts
