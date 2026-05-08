@@ -1,0 +1,1 @@
+function e(e){switch(e){case`tight`:return`ns-c-tight-margin`;case`tighter`:return`ns-c-tighter-margin`;case`none`:return`ns-c-no-margin`;default:return``}}export{e as t};

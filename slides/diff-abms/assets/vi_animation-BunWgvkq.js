@@ -1,0 +1,1 @@
+var e=`/slides/dc-diff-abms/vi_animation.gif`;export{e as t};
